@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hazard-1",
+        "name": "Adyar-Cooum River Delta Inundation Zone",
+        "severity": "CRITICAL",
+        "baseSurgeLevel": 0.5,
+        "criticalSurgeThreshold": 1.2,
+        "floodDepthCurrent": "1.8m",
+        "color": "#ef4444"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.2420, 13.1050],
+            [80.2520, 13.1020],
+            [80.2580, 13.0800],
+            [80.2540, 13.0600],
+            [80.2440, 13.0650],
+            [80.2450, 13.0900],
+            [80.2420, 13.1050]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hazard-2",
+        "name": "Marina Coastal Creek Overflow Zone",
+        "severity": "HIGH",
+        "baseSurgeLevel": 1.0,
+        "criticalSurgeThreshold": 1.8,
+        "floodDepthCurrent": "1.1m",
+        "color": "#f97316"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.2550, 13.0550],
+            [80.2750, 13.0580],
+            [80.2780, 13.0400],
+            [80.2580, 13.0380],
+            [80.2550, 13.0550]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hazard-3",
+        "name": "North Slum Lowland Waterlogging Sector",
+        "severity": "HIGH",
+        "baseSurgeLevel": 0.8,
+        "criticalSurgeThreshold": 1.5,
+        "floodDepthCurrent": "1.3m",
+        "color": "#eab308"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.2320, 13.1180],
+            [80.2480, 13.1150],
+            [80.2460, 13.1000],
+            [80.2300, 13.1020],
+            [80.2320, 13.1180]
+          ]
+        ]
+      }
+    }
+  ]
+}

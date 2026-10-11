@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hosp-1",
+        "name": "City Central Trauma & General Hospital",
+        "icuBedsTotal": 40,
+        "icuBedsAvailable": 12,
+        "generalBedsTotal": 250,
+        "generalBedsAvailable": 45,
+        "emergencyBedsTotal": 50,
+        "emergencyBedsAvailable": 18,
+        "oxygenCylinders": 120,
+        "ambulances": 8,
+        "elevation": 14.0,
+        "phone": "+91-9876543101"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2350, 13.0820]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hosp-2",
+        "name": "St. Jude Emergency Medical Center",
+        "icuBedsTotal": 25,
+        "icuBedsAvailable": 8,
+        "generalBedsTotal": 140,
+        "generalBedsAvailable": 32,
+        "emergencyBedsTotal": 30,
+        "emergencyBedsAvailable": 14,
+        "oxygenCylinders": 75,
+        "ambulances": 5,
+        "elevation": 15.2,
+        "phone": "+91-9876543102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2200, 13.0650]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hosp-3",
+        "name": "Apollo Coastal Emergency Hospital",
+        "icuBedsTotal": 35,
+        "icuBedsAvailable": 5,
+        "generalBedsTotal": 180,
+        "generalBedsAvailable": 22,
+        "emergencyBedsTotal": 40,
+        "emergencyBedsAvailable": 9,
+        "oxygenCylinders": 90,
+        "ambulances": 6,
+        "elevation": 7.5,
+        "phone": "+91-9876543103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2550, 13.0450]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hosp-4",
+        "name": "Riverside Emergency Clinic (Flood Threat)",
+        "icuBedsTotal": 10,
+        "icuBedsAvailable": 2,
+        "generalBedsTotal": 60,
+        "generalBedsAvailable": 8,
+        "emergencyBedsTotal": 15,
+        "emergencyBedsAvailable": 3,
+        "oxygenCylinders": 30,
+        "ambulances": 2,
+        "elevation": 1.8,
+        "phone": "+91-9876543104",
+        "floodRiskThreshold": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2480, 13.0700]
+      }
+    }
+  ]
+}

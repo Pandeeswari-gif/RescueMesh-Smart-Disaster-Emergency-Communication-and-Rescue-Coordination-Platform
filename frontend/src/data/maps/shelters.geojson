@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "shelter-1",
+        "name": "North Hill Community Center Shelter",
+        "capacity": 500,
+        "occupancy": 180,
+        "elevation": 16.0,
+        "phone": "+91-9876543201",
+        "foodDays": 7,
+        "waterDays": 6,
+        "medicalSupport": true,
+        "status": "OPEN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2200, 13.1050]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "shelter-2",
+        "name": "Metro Sports Indoor Stadium Relief Camp",
+        "capacity": 1200,
+        "occupancy": 640,
+        "elevation": 14.5,
+        "phone": "+91-9876543202",
+        "foodDays": 5,
+        "waterDays": 5,
+        "medicalSupport": true,
+        "status": "OPEN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2250, 13.0750]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "shelter-3",
+        "name": "Highland Polytechnic Relief Shelter",
+        "capacity": 400,
+        "occupancy": 320,
+        "elevation": 18.0,
+        "phone": "+91-9876543203",
+        "foodDays": 4,
+        "waterDays": 3,
+        "medicalSupport": false,
+        "status": "OPEN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2150, 13.0380]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "shelter-4",
+        "name": "Riverside Vocational School (At Risk)",
+        "capacity": 300,
+        "occupancy": 95,
+        "elevation": 2.1,
+        "phone": "+91-9876543204",
+        "foodDays": 2,
+        "waterDays": 2,
+        "medicalSupport": true,
+        "status": "OPEN",
+        "floodRiskThreshold": 1.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2520, 13.0680]
+      }
+    }
+  ]
+}

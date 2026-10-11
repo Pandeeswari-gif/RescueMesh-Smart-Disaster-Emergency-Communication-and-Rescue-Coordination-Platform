@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId": "ZONE-ALPHA",
+        "name": "Zone Alpha (North Highground)",
+        "riskLevel": "LOW",
+        "color": "#10b981",
+        "population": 45000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.2000, 13.1200],
+            [80.2400, 13.1200],
+            [80.2400, 13.0900],
+            [80.2000, 13.0900],
+            [80.2000, 13.1200]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId": "ZONE-BETA",
+        "name": "Zone Beta (River Basin Lowlands)",
+        "riskLevel": "CRITICAL",
+        "color": "#ef4444",
+        "population": 82000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.2400, 13.1100],
+            [80.2650, 13.1100],
+            [80.2650, 13.0600],
+            [80.2400, 13.0600],
+            [80.2400, 13.1100]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId": "ZONE-GAMMA",
+        "name": "Zone Gamma (West Metro Plateau)",
+        "riskLevel": "LOW",
+        "color": "#3b82f6",
+        "population": 61000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.2000, 13.0900],
+            [80.2400, 13.0900],
+            [80.2400, 13.0300],
+            [80.2000, 13.0300],
+            [80.2000, 13.0900]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId": "ZONE-DELTA",
+        "name": "Zone Delta (South Creek & Harbor)",
+        "riskLevel": "HIGH",
+        "color": "#f97316",
+        "population": 54000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [80.2400, 13.0600],
+            [80.2850, 13.0600],
+            [80.2850, 13.0300],
+            [80.2400, 13.0300],
+            [80.2400, 13.0600]
+          ]
+        ]
+      }
+    }
+  ]
+}

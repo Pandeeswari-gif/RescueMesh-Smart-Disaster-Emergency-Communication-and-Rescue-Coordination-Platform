@@ -1,0 +1,26 @@
+{
+  "name": "rescuemesh",
+  "version": "1.0.0",
+  "description": "RescueMesh – Smart Disaster Emergency Communication and Rescue Coordination Platform",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "seed": "cd backend && npm run seed",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "node start-all.js"
+  },
+  "keywords": [
+    "disaster-management",
+    "emergency-response",
+    "offline-first",
+    "mern",
+    "socketio",
+    "leaflet",
+    "mesh-network",
+    "drone-simulation"
+  ],
+  "author": "RescueMesh Team",
+  "license": "ISC"
+}
